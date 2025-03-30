@@ -1,8 +1,8 @@
 ## Lesson 1
 
 ## Unit 1.1
-**The Date ：**2025.03.30  
-**words ：**i,you,your,like,Chinese,book,cat,dog,teacher,student,and.  
+**The Date ：** 2025.03.30  
+**words ：** i,you,your,like,Chinese,book,cat,dog,teacher,student,and.  
 
 I like my father and mother.  
 I like your dog.  
@@ -16,7 +16,7 @@ I like my English teacher.
 
 ## Unit 1.2 Simple items and colors
 **The Date : ** 2025.03.30
-**words :**phone,room,house,red,black,white,green,blue,phone,computer,they,their, big, small,we,our  
+**words :** phone,room,house,red,black,white,green,blue,phone,computer,they,their, big, small,we,our  
 
 I like my red phone.  
 I like my house.  
@@ -29,7 +29,7 @@ I like your big room.
 
 ## Unit 1.3 Drink
 **The Date :** 2025.03.30  
-**words :**Long,or,short,spring,summer,fall,winter,drink,more,less,coffee, tea,cold,hot,water,juice  
+**words :** Long,or,short,spring,summer,fall,winter,drink,more,less,coffee, tea,cold,hot,water,juice  
 I drink more coffee.  
 I like spring.  
 summer is hot.  
@@ -42,7 +42,7 @@ Fall is cold.
 
 ## Unit 1.4 Say hello
 **The Date :** 2025.03.30  
-**words :**he,good,enening,man,woman,boy,girl,morning,am,are,is,where,key,here,table, date,sugar,here,has,date,at,restaurant,salad,game,play,sport,soccer,parents,from,beautiful ,pet,speak,little  
+**words :** he,good,enening,man,woman,boy,girl,morning,am,are,is,where,key,here,table, date,sugar,here,has,date,at,restaurant,salad,game,play,sport,soccer,parents,from,beautiful ,pet,speak,little  
 good morning.  
 good evening.  
 Hello,I am Lily.  
@@ -63,7 +63,7 @@ My name is Daniel.
 
 ## Unit 1.5 Restaurant
 **The Date :** 2025.03.30  
-**words :**afternoon,would,sandwich,cheese,chicken,pork  
+**words :** afternoon,would,sandwich,cheese,chicken,pork  
 Would you like a sandwich or a salad?  
 I'd like a cheese sandwich,please.  
 Have a nice day.  
