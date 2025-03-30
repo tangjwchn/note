@@ -15,7 +15,7 @@ I like my cat and you like your cat.
 I like my English teacher.  
 
 ## Unit 1.2 Simple items and colors
-**The Date : ** 2025.03.30
+**The Date ：** 2025.03.30  
 **words :** phone,room,house,red,black,white,green,blue,phone,computer,they,their, big, small,we,our  
 
 I like my red phone.  
