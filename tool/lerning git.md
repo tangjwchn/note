@@ -67,9 +67,7 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 
 ### 第2步：创建分支（branch）
 通过分支，可以同时拥有不同版本的存储库。  
-默认情况下，存储库有一个名为 main 的分支，它被视为最终分支。可在存储库中从 main 创建其他分支。  
-
-要在不更改主要代码源的情况下向项目添加新功能时，分支将非常实用。在合并主分支之前，在不同分支上完成的工作不会显示在主分支上。  
+默认情况下，存储库有一个名为 main(旧版：master) 的分支，它被视为最终分支。可在存储库中从 main 创建其他分支。要在不更改主要代码源的情况下向项目添加新功能时，分支将非常实用。在合并主分支之前，在不同分支上完成的工作不会显示在主分支上。  
 
 从 main 分支创建分支时，创建的是 main 在当时的副本或快照。如果其他人在你处理分支时对 main 分支进行了更改，可拉取这些更新。  
 
@@ -82,13 +80,11 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 现在你有两个分支： main 和 readme-edits 。现在，它们看起来完全相同。然后需要向新的 readme-edits 分支添加更改。  
 
 ### 第3步：进行和提交更改
-在上一步中创建新分支时，GitHub 会将你转到作为 main 副本的新 readme-edits 分支的代码页。  
-
-你可以对存储库中的文件进行更改并保存更改。在 GitHub 上，保存的更改称为提交。每个提交都有一个关联的提交消息，该消息是解释为什么进行特定更改的说明。提交消息会捕获你更改的历史记录，以便其他参与者可以了解您执行了哪些操作及其原因。  
+在 GitHub 上，保存的更改称为提交。每个提交都有一个关联的提交消息，该消息是解释为什么进行特定更改的说明。提交消息会捕获你更改的历史记录，以便其他参与者可以了解您执行了哪些操作及其原因。  
 1. 在你创建的 readme-edits 分支下，单击 README.md 文件。
 2. 若要编辑文件，请单击编辑图标。
 3. 在编辑器中，编写一些关于自己的内容。
-4. 单击提交更改。
+4. 单击“提交更改”。
 5. 在“提交更改”框中，编写描述更改的提交消息。
 6. 单击“提交更改”。
 
@@ -97,11 +93,7 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 ### 第4步：打开一个拉取请求
 现在你已在从 main 创建的分支中进行了更改，接下来可打开拉取请求。  
 
-拉取请求是 GitHub 上协作的核心。打开拉取请求后，可以提出更改，要求某人审查和提取您的贡献并将其合并到其分支中。拉取请求显示两个分支中内容的差异。变化、增减以不同的颜色显示。  
-
-只要进行提交，便可打开拉取请求并开始讨论，即使在代码完成之前亦可。  
-
-在这一步中，你将在自己的存储库中打开一个拉取请求，然后自行合并。这是在处理大型项目之前练习 GitHub 流程的好方法。  
+拉取请求是 GitHub 上协作的核心。在这一步中，你将在自己的存储库中打开一个拉取请求，然后自行合并。这是在处理大型项目之前练习 GitHub 流程的好方法。  
 1. 单击 hello-world 存储库的“拉取请求”选项卡。
 2. 单击“新建拉取请求”。
 3. 在“示例比较”框中，选择你创建的分支 readme-edits，与 main 进行比较。
@@ -113,7 +105,7 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 ### 第5步：合并拉取请求
 在最后一步中，你将 readme-edits 分支合并到 main 分支中。合并拉取请求后，readme-edits 分支上的更改将合并到 main。  
 
-有时，拉取请求可能会引入与 main 上的现有代码冲突的代码更改。如果存在任何冲突，GitHub 将提醒你有关冲突代码的信息，并防止合并，直到冲突解决为止。您可以进行解决冲突的提交，也可以使用拉取请求中的注释与团队成员讨论冲突。  
+有时，拉取请求可能会引入与 main 上的现有代码冲突的代码更改。如果存在任何冲突，GitHub 将提醒你有关冲突代码的信息，并防止合并，直到冲突解决为止。  
 
 分支合并到主分支中。
 1. 在拉取请求底部，单击“合并拉取请求”以将更改合并到 main 中。
@@ -122,32 +114,98 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 4. 单击返回 hello-world 存储库的“代码”选项卡，以在 main 上查看已发布的更改。
 
 ### 第6步：结束
-hello-world 的演示流程到这里就完成了。
+hello-world 的演示流程到这里就完成了。  
 
-## 启动
+## 常用命令
+### 身份标识
+在 Git 里使用 user.name 和 user.email 进行配置是很重要的，它们主要用于标识代码提交者的身份信息。  
+* 明确提交者，每次在使用 git commit 命令提交代码时，Git 会把 user.name 和 user.email 记录在提交信息中。这有助于团队成员在查看提交历史时，了解每一次代码修改是由谁完成的。
+* 关联 GitHub 等平台账号，在使用 Git 与远程仓库进行交互时，配置的 user.email 要和平台上注册的邮箱一致。这样，当你把代码推送到远程仓库后，提交记录就能正确关联到你的平台账号，在平台上显示为你的贡献。
 
-项目克隆
-```bash
-git clone
+* 配置方法
+``` bash
+git config user.name "Your Name"
+git config user.email "your_email@example.com"
 ```
-配置账号密码
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+
+### 仓库操作
+* `git init` ：在当前目录下初始化一个新的 Git 仓库。
+``` bash
+git init
 ```
-拉取
-```bash
-git pull
+
+* `git clone <远程仓库地址>`：将远程仓库克隆到本地。
+``` bash
+git clone https://github.com/username/repo.git
 ```
-添加
-```bash
-git add .
+
+### 提交操作
+* `git add <文件路径>`：将指定文件添加到暂存区
+``` bash
+git add file.txt
+git add .  // 使用.可添加当前目录下的所有文件。
 ```
-提交
-```bash
-git commit -m "XXX"
+
+* `git commit -m "提交信息"`：将暂存区的文件提交到本地仓库，-m后面需添加本次提交的简要描述。
+``` bash
+git commit -m "添加新功能"
 ```
-推送
-```bash
-git push
+
+* `git status`：查看当前工作区和暂存区的状态，了解哪些文件被修改、添加或删除。
+``` bash
+git status
+```
+### 分支操作
+* `git branch`：查看本地所有分支，当前所在分支会以特殊颜色显示，且前面有星号。
+``` bash
+git branch
+```
+
+* `git branch <分支名>`：创建一个新的本地分支。
+``` bash
+git branch feature
+```
+
+* `git checkout <分支名>`：切换到指定的本地分支。从 Git 2.23版本开始，也可用 `git switch <分支名>`替代。
+``` bash
+git checkout feature
+git switch feature
+```
+
+* `git checkout -b <分支名>`：创建并切换到新的本地分支
+``` bash
+git checkout -b new-feature
+```
+
+* `git merge <分支名>`：将指定分支的修改合并到当前分支
+``` bash
+git merge feature
+```
+
+* `git branch -d <分支名>`：安全删除已经合并到其他分支的本地分支，若要强制删除使用 `git branch -D <分支名>`
+``` bash
+git branch -d feature
+git branch -D old-feature
+```
+
+### 远程仓库操作
+* `git push <远程仓库名> <分支名>`：将本地分支的修改推送到远程仓库
+``` bash
+git push origin main
+```
+
+* `git push <远程仓库名> <分支名>`：将本地分支的修改推送到远程仓库
+``` bash
+git push origin main
+```
+
+* `git pull <远程仓库名> <分支名>`：从远程仓库拉取指定分支的更新，并合并到本地分支。
+``` bash
+git pull origin main
+```
+
+### 撤销操作
+* `git reset <提交哈希值> `：将当前分支的指针移动到指定的提交，可用于撤销提交。
+``` bash
+git reset HEAD~1  // 撤销上一次提交
 ```
