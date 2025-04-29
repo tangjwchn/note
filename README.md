@@ -6,11 +6,11 @@ Note 实质上是一个个人笔记仓库，涵盖了 CS50、English、Math、to
 * 掌握 tool 文件夹下的 markdown 文档编写，git 等工具的使用。  
 * 掌握 cs50 文件夹下的计算机科学导论、linux 等计算机知识。  
 
-**技术社区：**Stack Overflow、CSDN、V2EX  
-**行业资讯：**InfoQ、掘金小册、SegmentFault  
-**前沿科技：**TechCrunch、Wired、The Verge  
-**开源项目：**Apache基金会、Linux基金会  
-**学习平台：**LeetCode、牛客网  
+**技术社区：** Stack Overflow、CSDN、V2EX  
+**行业资讯：** InfoQ、掘金小册、SegmentFault  
+**前沿科技：** TechCrunch、Wired、The Verge  
+**开源项目：** Apache基金会、Linux基金会  
+**学习平台：** LeetCode、牛客网  
 
 **提升编程思维必读书籍**  
 
