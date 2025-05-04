@@ -25,7 +25,7 @@ Note 实质上是一个个人笔记仓库，涵盖了 CS50、English、Math、to
 
 **职业发展：值得考的证书**  
 
-* 入门：计算机二级、软考中级、阿里云ACA  
-* 就业：思科认证（CCNA）、红帽RHCSA、AWS云从业者  
-* 进阶：Oracle认证、华为HCIE、腾讯云TCP  
-* 专家：CCIE（网络专家）、CKA（云原生）、CISSP（安全专家）  
+* 入门：计算机二级、软考中级
+* 就业：思科认证（CCNA）、红帽RHCSA
+* 进阶：Oracle认证、华为HCIE
+* 专家：CCIE（网络专家）、CISSP（安全专家）  
