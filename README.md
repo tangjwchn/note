@@ -24,9 +24,9 @@ Note 实质上是一个个人笔记仓库，涵盖了 CS50、English、Math、to
 * 《C++ Primer》Stanley B. Lippman  
 * 《Java编程思想》Bruce Eckel    
 
-**职业发展：值得考的证书**  
+**职业发展：证书**  
 
-* 入门：计算机二级、软考中级
-* 就业：思科认证（CCNA）、红帽RHCSA
-* 进阶：Oracle认证、华为HCIE
-* 专家：CCIE（网络专家）、CISSP（安全专家）  
+* 入门：计算机二级
+* 就业：Red Hat Linux 认证 - RHCSA
+* 进阶：计算机技术与软件专业技术资格 - 软件设计师（中级）、Red Hat Linux 认证 - RHCE
+* 专家：计算机技术与软件专业技术资格 - 系统架构设计师（高级）、Red Hat Linux 认证 - RHCA
