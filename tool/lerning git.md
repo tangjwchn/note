@@ -1,8 +1,8 @@
 # lerning git
-Git 是一种可以智能追踪文件中更改的版本控制系统，将文件上传到 GitHub 时，会将其存储在“Git 存储库”中。这意味着，对 GitHub 中的文件进行更改（或“提交”）时，Git 会自动开始跟踪和管理更改。  
+Git 是一种可以智能追踪文件中更改的版本控制系统，将文件上传到 GitHub 时，会将其存储在“Git 存储库”中。这意味着，对 GitHub 中的文件进行更改（或“提交”）时，Git 会自动开始跟踪和管理更改。
 
 ## 1. Git 的下载
-**下载地址：**https://git-scm.com/downloads  
+**下载地址：**https://git-scm.com/downloads
 
 ## 2. 在 GitHub 上创建账户
 
