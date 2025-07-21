@@ -1,19 +1,26 @@
-# lerning Git
-Git 是一个分布式版本控制系统（DVCS），由 Linus Torvalds（Linux 之父）在 2005 年用两周时间写成，专门用来追踪文件的每一次变化，尤其是代码。它的核心目标是：让多人协作时，既能高效管理版本，又能避免代码冲突。
+# lerning GitHub
+GitHub 是一个基于 Git 的代码托管与协作平台，2008 年上线，2018 年被微软收购。它不仅是程序员的“云盘”，更是全球最大的开源社区和开发者社交网络。
 
-## 1. Git 的下载
-**下载地址：**https://git-scm.com/downloads
+实际应用场景如下：
+1. 个人开发者
+* 备份代码到云端，记录每次修改历史。
+* 用 GitHub Pages 搭建博客或项目官网。
+2. 团队协作
+* 多人开发时，通过分支（Branch）和 Pull Request 避免代码冲突。
+3. 开源贡献
+* 向知名项目提交改进（如修复 Python 的某个库）。
+* 流程：Fork 项目 → 改代码 → 发起 Pull Request → 原作者审核合并。
 
-## 2. 在 GitHub 上创建账户
+## 1. 在 GitHub 上创建账户
 
-### 2.1 创建账户步骤
+### 1.1 创建账户步骤
 1. 导航到 https://github.com/
 2. 单击”注册“
 3. 按照提示创建个人账户
 
-## 3. Git 的 Hello World
+## 2. GitHub 的 Hello World
 
-### 3.1 创建存储库
+### 2.1 创建存储库
 首先我们需要创建一个存储库。存储库就好比包含相关项的文件夹，例如文件、图像、视频，甚至其他文件夹。存储库通常会将属于同一”项目“或正在处理的事务的项组合在一起。  
 
 通常，存储库包括一个 README 文件，其中具有项目的相关信息。  
@@ -79,97 +86,3 @@ GitHub 可在新建存储库的同时添加 README 文件。GitHub 还提供了�
 
 ### 第6步：结束
 hello-world 的演示流程到这里就完成了。  
-
-## 常用命令
-### 身份标识
-在 Git 里使用 user.name 和 user.email 进行配置是很重要的，它们主要用于标识代码提交者的身份信息。  
-* 明确提交者，每次在使用 git commit 命令提交代码时，Git 会把 user.name 和 user.email 记录在提交信息中。这有助于团队成员在查看提交历史时，了解每一次代码修改是由谁完成的。
-* 关联 GitHub 等平台账号，在使用 Git 与远程仓库进行交互时，配置的 user.email 要和平台上注册的邮箱一致。这样，当你把代码推送到远程仓库后，提交记录就能正确关联到你的平台账号，在平台上显示为你的贡献。
-
-* 配置方法
-``` bash
-git config user.name "Your Name"
-git config user.email "your_email@example.com"
-```
-
-### 仓库操作
-* `git init` ：在当前目录下初始化一个新的 Git 仓库。
-``` bash
-git init
-```
-
-* `git clone <远程仓库地址>`：将远程仓库克隆到本地。
-``` bash
-git clone https://github.com/username/repo.git
-```
-
-### 提交操作
-* `git add <文件路径>`：将指定文件添加到暂存区
-``` bash
-git add file.txt
-git add .  // 使用.可添加当前目录下的所有文件。
-```
-
-* `git commit -m "提交信息"`：将暂存区的文件提交到本地仓库，-m后面需添加本次提交的简要描述。
-``` bash
-git commit -m "添加新功能"
-```
-
-* `git status`：查看当前工作区和暂存区的状态，了解哪些文件被修改、添加或删除。
-``` bash
-git status
-```
-### 分支操作
-* `git branch`：查看本地所有分支，当前所在分支会以特殊颜色显示，且前面有星号。
-``` bash
-git branch
-```
-
-* `git branch <分支名>`：创建一个新的本地分支。
-``` bash
-git branch feature
-```
-
-* `git checkout <分支名>`：切换到指定的本地分支。从 Git 2.23版本开始，也可用 `git switch <分支名>`替代。
-``` bash
-git checkout feature
-git switch feature
-```
-
-* `git checkout -b <分支名>`：创建并切换到新的本地分支
-``` bash
-git checkout -b new-feature
-```
-
-* `git merge <分支名>`：将指定分支的修改合并到当前分支
-``` bash
-git merge feature
-```
-
-* `git branch -d <分支名>`：安全删除已经合并到其他分支的本地分支，若要强制删除使用 `git branch -D <分支名>`
-``` bash
-git branch -d feature
-git branch -D old-feature
-```
-
-### 远程仓库操作
-* `git push <远程仓库名> <分支名>`：将本地分支的修改推送到远程仓库
-``` bash
-git push origin main
-```
-
-* `git push <远程仓库名> <分支名>`：将本地分支的修改推送到远程仓库
-``` bash
-git push origin main
-```
-
-* `git pull <远程仓库名> <分支名>`：从远程仓库拉取指定分支的更新，并合并到本地分支。
-``` bash
-git pull origin main
-```
-
-### 撤销操作
-* `git reset <提交哈希值> `：将当前分支的指针移动到指定的提交，可用于撤销提交。
-``` bash
-git reset HEAD~1  // 撤销上一次提交
-```
